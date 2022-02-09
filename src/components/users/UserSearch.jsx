@@ -30,7 +30,6 @@ function UserSearch() {
         <div>
           <form onSubmit={handleSubmit}>
             <div className='form-control'>
-              <div><p className='m-1 text-lg font-bold'>Please enter any name or text below</p></div>
               <div className='relative'>
                 <input
                   type='text'
@@ -64,3 +63,4 @@ function UserSearch() {
   }
   
   export default UserSearch
+  // <div><p className='m-1 text-lg font-bold'>Please enter any name or text below</p></div>
